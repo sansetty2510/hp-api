@@ -4,7 +4,7 @@ const router = express.Router();
 
 router.get("/:houseName", async (req, res) => {
   const { houseName } = req.params;
-  Character.find({ house: houseName })
+  Character.find({ house: { $regex: new RegExp(houseName, "i") } })
     .then((characterResult) => {
       res.send(characterResult);
     })
