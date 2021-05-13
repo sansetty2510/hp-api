@@ -15,4 +15,4 @@ A node + express + mongoose project on Harry Potters film characters, and used t
 - http://localhost:3000/characters - view all characters
 - http://localhost:3000/characters/students - view all characters who are Hogwarts students during the book series
 - http://localhost:3000/characters/staff - view all characters who are Hogwarts staff during the book series
-- http://localhost:3000/characters/house/:house - view all characters in a certain house, e.g. /Slytherin
+- http://localhost:3000/characters/house/:house - view all characters in a certain house, e.g. /slytherin
